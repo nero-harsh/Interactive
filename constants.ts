@@ -1,0 +1,82 @@
+
+import { Product } from './types';
+
+export const PICKLE_PRODUCTS: Product[] = [
+  {
+    id: 1,
+    name: "Sun-Kissed Chilli Burst",
+    tagline: "Fiery & Flavourful",
+    description: "Vibrant red chillies stuffed with a piquant mix of ground spices and herbs, dried under the sun. A pickle for the bold and the brave.",
+    price: 375,
+    imageUrl: "https://picsum.photos/seed/chilli/400/400",
+    spiceLevel: 5,
+    category: 'spicy',
+  },
+  {
+    id: 2,
+    name: "Spicy Chicken Relish",
+    tagline: "A Bold & Meaty Indulgence",
+    description: "Tender pieces of chicken marinated in a fiery blend of red chillies and robust spices. A non-vegetarian delight that's unapologetically bold.",
+    price: 550,
+    imageUrl: "https://picsum.photos/seed/chicken/400/400",
+    spiceLevel: 5,
+    category: 'spicy',
+  },
+  {
+    id: 3,
+    name: "Fiery Garlic Crunch",
+    tagline: "Bold, Pungent & Spicy",
+    description: "Crisp garlic cloves tossed in a fiery blend of red chilli flakes and secret spices. A powerful punch of flavour for the true spice enthusiast.",
+    price: 425,
+    imageUrl: "https://picsum.photos/seed/fierygarlic/400/400",
+    spiceLevel: 4,
+    category: 'spicy',
+  },
+  {
+    id: 4,
+    name: "Heirloom Garlic Preserve",
+    tagline: "The Aromatic Tradition",
+    description: "Whole cloves of garlic, slow-pickled in cold-pressed mustard oil with a hint of turmeric and fenugreek. A comforting taste of home.",
+    price: 400,
+    imageUrl: "https://picsum.photos/seed/garlic/400/400",
+    spiceLevel: 2,
+    category: 'mild',
+  },
+  {
+    id: 5,
+    name: "Childhood Lemon Zing",
+    tagline: "Tangy & Tantalizing",
+    description: "Juicy lemons cut into quarters and preserved in their own juices with a selection of sweet and sour spices. A refreshing, nostalgic delight.",
+    price: 320,
+    imageUrl: "https://picsum.photos/seed/lemon/400/400",
+    spiceLevel: 2,
+    category: 'mild',
+  },
+  {
+    id: 6,
+    name: "Classic Tomato Chutney",
+    tagline: "A Sweet & Savory Legacy",
+    description: "Sun-dried heirloom tomatoes slow-cooked with sweet jaggery and pungent mustard seeds. A uniquely complex flavour from a forgotten recipe.",
+    price: 480,
+    imageUrl: "https://picsum.photos/seed/tomato/400/400",
+    spiceLevel: 1,
+    category: 'mild',
+  },
+  {
+    id: 7,
+    name: "Tangy Amla Preserve",
+    tagline: "The Wellness Pickle",
+    description: "Indian gooseberries (Amla) pickled in a blend of health-giving spices and a touch of sweetness. A tangy, vitamin-C rich concoction.",
+    price: 420,
+    imageUrl: "https://picsum.photos/seed/amla/400/400",
+    spiceLevel: 2,
+    category: 'mild',
+  },
+];
+
+export const NAV_LINKS = [
+    { name: 'Home', path: '/' },
+    { name: 'Flavour Journey', path: '/flavours' },
+    { name: 'All Pickles', path: '/products' },
+    { name: 'Our Story', path: '/story' },
+];
